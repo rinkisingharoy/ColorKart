@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - ColorKart</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="cart.html">Cart</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 1">
+      <h3>Color Pen Set</h3>
+      <p>₹99</p>
+      <button onclick="addToCart('Color Pen Set')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 2">
+      <h3>Rainbow Mug</h3>
+      <p>₹199</p>
+      <button onclick="addToCart('Rainbow Mug')">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
